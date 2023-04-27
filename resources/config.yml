@@ -1,0 +1,23 @@
+#balbLinks - Desenvolvido por Sr_Balbucio, o best dev
+#Para conhecer mais plugins entre em: https://plugins.balbucio.xyz
+#Discord da balbPlugins: https://balbucio.xyz/discord
+
+#Você pode usar o &
+messages:
+  notfound: "§cNão encontramos esse link!"
+  openurl: "§aClique §e§lAQUI §apara abrir o link do {linkName}!"
+  hoveropen: "§7Clique para abrir em seu navegador!"
+  list: "§aLista com todos os Links do servidor:\n"
+  listItem: "§b{linkName} : §7{url}"
+  use: "§7Use §f/link <link> §7para acessar o link!"
+
+#Adicione HTTP/HTTPS:// em todos os links
+links:
+  Discord:
+    Name: "Discord"
+    Url: "https://balbucio.xyz/discord"
+    Permission: "null" #Deixe null para não executar nenhuma verificação de permissão
+  Loja:
+    Name: "Loja"
+    Url: "https://loja.balbucio.xyz/"
+    Permission: "buyer.use" #Deixe null para não executar nenhuma verificação de permissão
